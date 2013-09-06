@@ -15,17 +15,17 @@
 }
 
 .top_oldlimit_box{
-	background:url("../images/st1_top.png") no-repeat scroll 0 0 transparent
+	background:url("st1_top.png") no-repeat scroll 0 0 transparent
 }
 
 
 html{
-	background: #9c0 url('../images/bg.jpg') 0 0 repeat;
+	background: #9c0 url('bg.jpg') 0 0 repeat;
 	height: 100%;
 }
 
 body{
-	background:url("../images/body_bg.jpg") no-repeat scroll 50% 0 transparent;
+	background:url("body_bg.jpg") no-repeat scroll 50% 0 transparent;
 	min-height: 100%;	
 	padding: 45px 0;
 }
@@ -38,4 +38,10 @@ body{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	overflow-y: hidden;
+}
+
+.main-head{
+	padding: 40px 30px;
+	background: url("header_bg.png") no-repeat scroll 0 0 transparent;
 }
