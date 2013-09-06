@@ -31,6 +31,17 @@ display: table; /* 2 */
   position: absolute;
 }
 
+.cr{
+  clear: right;
+}
+
+.cl{
+  clear: left;
+}
+
+.cb{
+  clear: both;
+}
 
 
 
@@ -125,9 +136,6 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-a:focus {
-    outline: thin dotted;
-}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.

@@ -19,11 +19,6 @@
 }
 
 
-a{
-	color: #A3B618;
-	text-decoration: none;
-}
-
 html{
 	background: #9c0 url('bg.jpg') 0 0 repeat;
 	height: 100%;
@@ -35,6 +30,10 @@ body{
 	padding: 45px 0;
 }
 
+a{
+	color:#fff;
+}
+
 .all-wrap{
 	max-width: 1064px;
 	background: #F7F7F6;
@@ -44,32 +43,9 @@ body{
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	overflow-y: hidden;
-	min-width: 1064px;
 }
 
 .main-head{
 	padding: 40px 30px;
 	background: url("header_bg.png") no-repeat scroll 0 0 transparent;
-}
-
-.site-title{
-	margin: 0;
-	width: 30%;
-}
-
-.site-title-url{
-	font-size: 12px;
-}
-
-.site-title-img{
-	display: block;
-}
-
-.b-site-contact{
-	text-align: center;
-	width: 40%;
-}
-
-.b-site-contact-phone, .b-site-contact-mail{
-	display: block;
 }
