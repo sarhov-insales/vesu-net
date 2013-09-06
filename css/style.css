@@ -1,0 +1,41 @@
+
+#ls_oldlimit_box{
+	color: #464646;
+	font: bold 24px/29px Georgia;
+	height: 32px;
+	overflow: hidden;
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	width: 64px;
+	z-index: 9999;
+	left: 50%;
+	margin-left: -32px;
+	top:0;
+	position: fixed;
+}
+
+.top_oldlimit_box{
+	background:url("../images/st1_top.png") no-repeat scroll 0 0 transparent
+}
+
+
+html{
+	background: #9c0 url('../images/bg.jpg') 0 0 repeat;
+	height: 100%;
+}
+
+body{
+	background:url("../images/body_bg.jpg") no-repeat scroll 50% 0 transparent;
+	min-height: 100%;	
+	padding: 45px 0;
+}
+
+.all-wrap{
+	max-width: 1064px;
+	background: #F7F7F6;
+	margin:0 auto;
+	height: 800px;/*temp*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
