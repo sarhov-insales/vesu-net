@@ -24,6 +24,17 @@ a{
 	text-decoration: none;
 }
 
+
+*::selection{
+	background: none repeat scroll 0 0 #545252;
+	color: #FFFFFF;
+}
+
+*::-moz-selection{
+	background: none repeat scroll 0 0 #545252;
+	color: #FFFFFF;
+}
+
 html{
 	background: #9c0 url('bg.jpg') 0 0 repeat;
 	height: 100%;
@@ -33,6 +44,7 @@ body{
 	background:url("body_bg.jpg") no-repeat scroll 50% 0 transparent;
 	min-height: 100%;	
 	padding: 45px 0;
+	 font-family: Arial,Helvetica,sans-serif;
 }
 
 .all-wrap{
@@ -48,7 +60,7 @@ body{
 }
 
 .main-head{
-	padding: 40px 30px;
+	padding: 28px 40px;
 	background: url("header_bg.png") no-repeat scroll 0 0 transparent;
 }
 
@@ -66,10 +78,31 @@ body{
 }
 
 .b-site-contact{
-	text-align: center;
-	width: 40%;
+	color: #898A8B;
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 88px;
+	text-align: left;
+}
+
+.b-site-contact-phone{
+	margin-bottom: 12px;
 }
 
 .b-site-contact-phone, .b-site-contact-mail{
 	display: block;
+}
+
+.b-site-contact-mail{
+	font-family: Georgia;
+	font-size: 18px;
+	color: #A3B618;
+	margin: 7px 0 0 10px;
+	padding-left: 10px;
+	font-style:italic ;
+}
+
+.b-site-contact-mail:hover{
+	color: #898A8B;
 }
