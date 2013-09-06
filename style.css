@@ -67,6 +67,8 @@ body{
 .site-title{
 	margin: 0;
 	width: 30%;
+	margin: 10px 0 0 0;
+	line-height: 12px;
 }
 
 .site-title-url{
@@ -99,8 +101,9 @@ body{
 	font-size: 18px;
 	color: #A3B618;
 	margin: 7px 0 0 10px;
-	padding-left: 10px;
+	padding-left: 15px;
 	font-style:italic ;
+	background: #fff url('email.png') 0 center no-repeat;
 }
 
 .b-site-contact-mail:hover{
