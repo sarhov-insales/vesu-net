@@ -12,7 +12,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="web_icons.css">
     <link rel="stylesheet" href="css/media.css">
+    <!-- don't delete -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+<script src="js/functions.js"></script>
+<!-- don't delete -->
     <script src="js/libs/modernizr-2.6.2.min.js"></script>
+    <script src="js/libs/countdown.js"></script>
 </head>
 <body>
 
@@ -80,32 +86,129 @@
                     <img src="" alt="" class="b-special-item-box2-img">
                 </a> <!-- b-cspecial-item-box2-img-url -->
                 <div class="b-special-item-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, sapiente, deleniti, tenetur saepe nesciunt laborum iusto voluptates accusamus non eligendi alias officiis porro nihil sunt in odit rerum. Error, sunt.
+                    Купон скидок позволяет получить персональную скидку на товар. Для этого при оформлении заказа в разделе Моя корзина укажите код купона скидки в специальном поле. 
                 </div> <!-- b-special-item-description -->
                 <div class="b-special-item-box2-buyzone fr">
                     <button class="button buy">купить</button>
                 </div> <!-- b-special-item-box2-buyzone -->
             </div> <!-- b-special-item-box2 -->
-        </div> <!-- b-special-item-box-wrap -->    
+        </div> <!-- b-special-item-box-wrap -->
+        <div class="b-special-item-footer">
+            <span class="special-item-countdowntext fl">
+                До окончания акции осталось:
+            </span>
+            <ul id="countdown" class="fl">
+                <li> <span class="days">00</span>
+                <p class="timeRefDays">дни</p>
+                </li>
+                <li> <span class="hours">00</span>
+                <p class="timeRefHours">часы</p>
+                </li>
+                <li> <span class="minutes">00</span>
+                <p class="timeRefMinutes">минуты</p>
+                </li>
+                <li> <span class="seconds">00</span>
+                <p class="timeRefSeconds">секунды</p>
+                </li>
+            </ul>
+            <button type="submit" class=" countdown-button fl">Купить</button>
+            <span class="special-item-countdowntext fl">
+                Уже купили 12 человек
+            </span>
+        </div><!-- b-special-item-footer -->   
     </form>
     </section> <!-- special-item-wrap -->
+    <section class="b-frontpage-items">
+        <h1 class="b-frontpage-items-title">
+            Лидеры продаж
+        </h1>
+        <div class="frontpage-items">
+            
+            <article class="item-box frontpage-item-box">
+                <a href="#" class="item-box-img-url">
+                    <img src="http://lorempixel.com/150/150/" alt="" class="item-box-img">
+                </a>
+                <h1 class="item-box-title">
+                    
+                </h1>
+                <div class="item-box-buyzone">
+                    <span class="new-price">1 250 руб</span>
+                    <button class="buy-button button">Подробнее</button>
+                </div>
+            </article>
+            
+            <article class="item-box frontpage-item-box">
+                <a href="#" class="item-box-img-url">
+                    <img src="http://lorempixel.com/150/150/" alt="" class="item-box-img">
+                </a>
+                <h1 class="item-box-title">
+                    
+                </h1>
+                <div class="item-box-buyzone">
+                    <span class="new-price">1 250 руб</span>
+                    <button class="buy-button button">Подробнее</button>
+                </div>
+            </article>
+            
+            <article class="item-box frontpage-item-box">
+                <a href="#" class="item-box-img-url">
+                    <img src="http://lorempixel.com/150/150/" alt="" class="item-box-img">
+                </a>
+                <h1 class="item-box-title">
+                    <a href="#" class="item-box-title-url">
+                        Капсулы "Ананас для похудения"
+                    </a>
+                </h1>
+                <div class="item-box-buyzone">
+                    <span class="new-price">1 250 руб</span>
+                    <button class="buy-button button">Подробнее</button>
+                </div>
+            </article>
+            
+            <article class="item-box frontpage-item-box">
+                <a href="#" class="item-box-img-url">
+                    <img src="http://lorempixel.com/150/150/" alt="" class="item-box-img">
+                </a>
+                <h1 class="item-box-title">
+                    
+                </h1>
+                <div class="item-box-buyzone">
+                    <span class="new-price">1 250 руб</span>
+                    <button class="buy-button button">Подробнее</button>
+                </div>
+            </article>
+
+            <article class="item-box frontpage-item-box">
+                <a href="#" class="item-box-img-url">
+                    <img src="http://lorempixel.com/150/150/" alt="" class="item-box-img">
+                </a>
+                <h1 class="item-box-title">
+                    
+                </h1>
+                <div class="item-box-buyzone">
+                    <span class="new-price">1 250 руб</span>
+                    <button class="buy-button button">Подробнее</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
 </div> <!-- all-wrap -->
 
 <div id="ls_oldlimit_box" class="top_oldlimit_box">16+</div> <!-- 16+ -->
 
-<!-- don't delete -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
-<script src="js/functions.js"></script>
-<!-- don't delete -->
-        
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+   
 <script>
-var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src='//www.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+    $(document).ready(function(){
+        $("#countdown").countdown({
+            date: "17 september 2013 12:00:00",
+            format: "on"
+        },
+        function() {
+            // callback function
+        });
+    });
+ </script>
     </body>
 </html>

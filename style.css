@@ -18,6 +18,40 @@
 	background:url("st1_top.png") no-repeat scroll 0 0 transparent
 }
 
+#countdown{
+	padding-left: 0;
+}
+
+ul#countdown li {
+  display: inline-block;
+  background:  url('timer-piece.png')  no-repeat scroll 0 0 transparent;
+  width: 42px;
+  height: 43px;
+  text-align: center;
+  box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+ul#countdown li span {
+  font:bold 28px/43px Arial;
+  color: #1f2225;
+  position: relative;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 7px;
+  margin: 3px 0;
+}
+
+
+
+
 button{
 	background: none;
 	border:none;
@@ -34,7 +68,9 @@ padding: 0 15px;
 text-align: center;
 }
 
-
+.button:hover{
+	background: #6B8108;
+}
 
 
 a{
@@ -71,11 +107,11 @@ body{
 	max-width: 1064px;
 	background: #F7F7F6;
 	margin:0 auto;
-	height: 800px;/*temp*/
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	min-width: 1064px;
+	overflow: hidden;
 }
 
 .main-head{
@@ -272,6 +308,7 @@ body{
 	font: 14px/16px Arial;
 	margin-left: 45px;
 	text-transform: uppercase;
+	text-decoration: line-through;
 }
 
 .b-special-item-box2-img{
@@ -280,4 +317,113 @@ body{
 	height: 184px;
 	margin: 0 auto;
 	width: 184px;
+}
+
+.b-special-item-description{
+	padding: 25px 0 10px 20px;
+	overflow: hidden;
+}
+
+.b-special-item-footer{
+	background: url("day_footer.jpg") no-repeat scroll left top #FFFFFF;
+	display: block;
+	height: 80px;
+	padding-top: 4px;
+	width: 100%;
+}
+
+.special-item-countdowntext{
+	color: #FFFFFF;
+	font: 18px/80px Arial;
+	margin: 0 35px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+.countdown-button{
+	-moz-box-sizing: border-box;
+	background: linear-gradient(to bottom, #FEE100 0%, #FFB802 100%) repeat scroll 0 0 transparent;
+	border: 1px solid #FFE6AA;
+	border-radius: 2px 2px 2px 2px;
+	color: #000000;
+	display: block;
+	font: bold 28px/38px Arial;
+	text-align: center;
+	text-shadow: 1px 1px 2px #FFE07D;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 0 0 2px #B4AF1D;
+	margin: 14px 25px;
+	width: 190px;
+}
+
+.b-frontpage-items{
+	padding: 5px 20px 50px 20px;
+	background: #fff;
+}
+
+.frontpage-items{
+	text-align: center;
+}
+
+.b-frontpage-items-title{
+	text-transform: uppercase;
+	color: #A3B618;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.item-box{
+	min-height: 280px;
+	width: 200px;
+	margin: 1px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item-box-img-url{
+	height: 200px;
+	display: block;
+	text-align: center;
+}
+
+.item-box-img-url:before{
+	content:"";
+	margin-left: -0.25em;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item-box-img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item-box-title{
+	margin: 0;
+	min-height: 50px;
+}
+
+.item-box-title-url{
+	color: #6D9F10;
+	display: block;
+	font-weight: bold;
+	line-height: 1.35em;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.item-box-title-url:hover{
+	text-decoration: underline;
+}
+
+.item-box-buyzone .new-price{
+	font-size: 15px;
+	color: #E6C407;
+	font-weight: bold;
+}
+
+.buy-button:hover{
+	background: linear-gradient(to bottom, #3A3939 0%, #2F2E2E 100%) repeat scroll 0 0 transparent;
+	
 }
