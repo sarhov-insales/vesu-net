@@ -49,9 +49,6 @@ ul#countdown li p.timeRefSeconds {
   margin: 3px 0;
 }
 
-
-
-
 button{
 	background: none;
 	border:none;
@@ -72,12 +69,31 @@ text-align: center;
 	background: #6B8108;
 }
 
-
 a{
 	color: #A3B618;
 	text-decoration: none;
 }
 
+a:hover{
+	color:#898A8B;
+}
+
+.editor h2{
+	color: #A3B618;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0;
+	padding: 17px 0 5px;
+}
+
+.editor p{
+	font-size: 11px;
+}
+
+.editor a{
+
+}
 
 *::selection{
 	background: none repeat scroll 0 0 #545252;
@@ -456,7 +472,6 @@ body{
 }
 
 .sidebar-links-item{
-	background: #000;
 	padding: 7px;
 	border-bottom: 1px solid #fff;
 	display: block;
@@ -465,7 +480,15 @@ body{
 	font-weight: bold;
 }
 
-.sidebar-article-links-item:hover{
+.sidebar-article-links-item{
+	background: #000;
+}
+
+.sidebar-categories-links-item{
+	background:#393939;
+}
+
+.sidebar-links-item:hover, .sideba-links-item.active{
 	background: #7FA200;
 }
 
@@ -506,6 +529,7 @@ body{
 
 .content-box{
 	width: 763px;
+	padding: 0 8px;
 }
 
 .breadcrumbs > a{
@@ -552,4 +576,37 @@ body{
 	font-size: 11px;
 	  text-align: justify;
     word-spacing: -0.3ex;
+}
+
+
+/*the categories page*/
+
+.categories-page{
+	margin: 45px 0 30px 0;
+	padding-right: 60px;
+}
+
+.categories-page-item{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #EFEFEF;
+	margin-bottom: 10px;
+}
+
+.categories-page-image-url{
+	margin-right: 10px;
+}
+
+
+.categories-page-item-title{
+	margin: 0 0 10px 0;
+}
+
+.categories-page-item-title-url{
+	font-size: 16px;
+	font-weight: normal;
+	color: #A3B618;
+}
+
+.categories-page-item-title-url:hover{
+	color: #898A8B;
 }
