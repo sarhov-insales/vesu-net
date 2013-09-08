@@ -546,3 +546,10 @@ body{
 .article-links-item:hover{
 	color: #898A8B;
 }
+
+.article-text{
+	color: #898A8B;
+	font-size: 11px;
+	  text-align: justify;
+    word-spacing: -0.3ex;
+}
