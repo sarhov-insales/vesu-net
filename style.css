@@ -812,3 +812,45 @@ span.pager-button{
 .item-page-buy-button{
 	margin-left: 10px;
 }
+
+.item-page-description{
+	padding-bottom: 20px;
+}
+
+.item-page-description-itself{
+	max-height: 350px;
+	overflow: auto;
+	font-size: 15px;
+}
+
+.item-page-description-itself p{
+	font-size: 15px;
+}
+
+.item-page-description-title, .reviews-wrap-title{
+	font-size:14px ;
+	font-weight: normal;
+	color: #A3B618;
+}
+
+.analog-item-title{
+	color: #333;
+	font-weight: normal;
+}
+
+.analog-item-wrap{
+	margin-bottom: 40px;
+}
+
+.analog-item-box{
+	border: 1px solid #EFEFEF;
+	border-radius: 5px 5px 5px 5px;
+	margin: 4px;
+	padding: 10px 10px 20px 10px;
+	width: 224px;
+}
+
+.analog-item-box .item-box-title{
+	min-height: 0;
+	margin: 5px 0;
+}
