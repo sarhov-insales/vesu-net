@@ -243,6 +243,7 @@ body{
 
 .top-nav-item:hover, .top-nav-item.active{
 	background: linear-gradient(to bottom, #879E13 0%, #7A9310 100%) repeat scroll 0 0 transparent;
+	color:#fff;
 }
 
 .search-wrap{
