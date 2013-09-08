@@ -733,3 +733,82 @@ span.pager-button{
 }
 
 /*item page*/
+
+.bordero{
+	padding: 5px 0;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.bordero-top{
+	border-top: 1px solid #EFEFEF;
+
+}
+
+.item-page{
+	padding: 20px;
+}
+
+.item-image-url{
+	margin-right: 30px;
+	border: 1px solid #EFEFEF;
+	width: 200px;
+	text-align: center;
+}
+
+.item-info{
+	overflow: hidden;
+}
+
+.shipping-info{
+	padding: 15px 0;
+}
+
+.shipping-info strong{
+	margin-left: 20px;
+}
+
+.shipping-info-url{
+	font-weight: bold;
+}
+
+
+.item-properties-table{
+	padding-bottom: 15px;
+}
+
+.item-properties-table table{
+	width: 50%;
+	padding: 3px;
+	background: #F8F8F8;
+}
+
+.item-properties-table td{
+	padding: 5px;
+}
+
+.property-name{
+	color: #000;
+}
+
+.property-characteristic{
+	padding-left: 20px;
+	color: #888888;
+}
+
+.pricezone{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.pricezone{
+	font-size: 11px;
+}
+
+.item-info-price{
+	font-size:15px;
+	color: #E6C407;
+}
+
+.item-page-buy-button{
+	margin-left: 10px;
+}
