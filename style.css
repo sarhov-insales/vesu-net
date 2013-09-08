@@ -358,10 +358,12 @@ body{
 .b-frontpage-items{
 	padding: 5px 20px 50px 20px;
 	background: #fff;
+	
 }
 
 .frontpage-items{
 	text-align: center;
+	margin: 15px 0;
 }
 
 .b-frontpage-items-title{
@@ -426,4 +428,121 @@ body{
 .buy-button:hover{
 	background: linear-gradient(to bottom, #3A3939 0%, #2F2E2E 100%) repeat scroll 0 0 transparent;
 	
+}
+
+.main-foot{
+	padding: 15px;
+	background: #EAE9E9;
+	margin-top: 130px;
+}
+
+.copy-shop-name-url, .copy-powered-url{
+	color: #7E7D7D;
+}
+
+/*the blog page*/
+
+.content{
+	padding: 20px;
+	background: #fff;
+}
+
+.main-sidebar{
+	width: 241px;
+}
+
+.sidebar-links{
+	margin-bottom: 30px;
+}
+
+.sidebar-links-item{
+	background: #000;
+	padding: 7px;
+	border-bottom: 1px solid #fff;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.sidebar-article-links-item:hover{
+	background: #7FA200;
+}
+
+.sidebar-items-box{
+	text-align: center;
+}
+
+.sidebar-items-box-title{
+	font-size: 16px;
+	color: #6D9F10;
+}
+
+.youhavseen{
+	border-bottom: 1px solid #E8E8E8;
+	padding-bottom:10px ;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.youhavseen .item-box-title{
+	min-height: 0;
+	
+}
+
+.youhavseen .item-box-title-url{
+	font-size: 11px;
+}
+
+.youhavseen .item-box-title a:hover{
+	text-decoration: none;
+	color: #898A8B;
+}
+
+.youhavseen .new-price{
+	display: block;
+	margin: 5px 0;
+}
+
+.content-box{
+	width: 763px;
+}
+
+.breadcrumbs > a{
+	text-transform: uppercase;
+	color: #2B2B2B;
+	display: inline-block;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.breadcrumbs > a:hover{
+	color: #A3B618;
+}
+
+.breadcrumbs >a:first-child{
+	overflow: hidden;
+	text-indent: -9999px;
+	display: inline-block;
+	background: transparent url('home.gif') 0 0 no-repeat;
+	width: 12px;
+	height: 12px;
+}
+
+.page-title{
+	text-transform: uppercase;
+	color: #A3B618;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.article-links-item{
+	font-size: 11px;
+	display: block;
+	line-height: 1.5;
+}
+
+.article-links-item:hover{
+	color: #898A8B;
 }
