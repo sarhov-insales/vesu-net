@@ -602,6 +602,10 @@ body{
 	margin: 0 0 10px 0;
 }
 
+.categories-item-page{
+	margin-bottom: 25px;
+}
+
 .categories-page-item-title-url{
 	font-size: 16px;
 	font-weight: normal;
@@ -611,3 +615,121 @@ body{
 .categories-page-item-title-url:hover{
 	color: #898A8B;
 }
+
+/*category-item-page*/
+
+.category-item-page-item-box{
+	border: 1px solid #EFEFEF;
+	display: inline-block;
+	width: 220px;
+	padding:  10px 15px;
+	text-align: center;
+	margin: 10px;
+}
+
+.category-item-page-item-box .item-box-img-url{
+	border-bottom: 1px solid #EFEFEF;
+	padding-bottom: 5px;
+}
+
+.category-item-page-item-box .item-box-title{
+	min-height: 0px;
+	padding: 10px 0;
+}
+
+.category-item-page-item-box .item-box-title-url:hover{
+	text-decoration: none;
+}
+
+.category-item-page-item-box .item-box-buyzone{
+	width: 100%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #EFEFEF;
+
+}
+
+.filtr-wrap{
+	margin-bottom: 30px;
+}
+
+.open-properties{
+	display: block;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+.open-properties-text{
+	border-bottom: 1px dashed #506CBC;
+}
+
+.closed-properties{
+	padding:10px 5px;
+	background: #E6E6E6;
+	width: 380px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	display: none;
+}
+
+.hidden-properties-buttons{
+	margin: 5px 0 0  0;
+}
+
+.closed-properties{
+	font-size: 10px;
+}
+
+.hidden-properties-price-inputs{
+	margin-right: 73px;
+}
+
+.hidden-properties-price-inputs input{
+	width: 50px;
+}
+
+.sorting{
+	margin: 15px 0;
+}
+
+.sorting-button{
+	font-size: 11px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.sorting-button.active{
+	background: #E6E6E6;
+	color: #000;
+}
+
+.pagination-buttons{
+	font-size: 11px;
+	margin: 0 4px;
+}
+
+a.pagination-buttons{
+	text-decoration: underline;
+}
+
+.pager{
+	margin: 5px 0;
+	font-size: 10px;
+}
+
+.pager strong{
+	margin-right: 7px;
+	font-size: 12px;
+}
+
+.pager-button{
+	text-decoration: underline;
+	display: inline-block;
+	padding: 3px;
+}
+
+span.pager-button{
+	background: #E6E6E6;
+}
+
+/*item page*/
