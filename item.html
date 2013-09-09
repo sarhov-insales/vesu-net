@@ -190,7 +190,7 @@
                                 <button class="buy-button button">Подробнее</button>
                             </div>
                         </article> <!-- item-box -->
-                        
+
                          <article class="item-box analog-item-box">
                              <a href="#" class="item-box-img-url">
                                 <img src="item-image4.jpg" alt="" class="item-box-img">
@@ -214,11 +214,52 @@
                         Отзвывы
                     </h2>
                     <div class="reviews-box">
-                        
-                        Here goes review form and the reviews theirself
+                        <article class="review bordero">
+                            <strong class="review-author">Guest, </strong><span class="review-date">09.09.2013</span>
+                            <p class="review-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>                            
+                        </article>
+                        <article class="review bordero">
+                            <strong class="review-author">Guest, </strong><span class="review-date">09.09.2013</span>
+                            <p class="review-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>                            
+                        </article>
 
-                    </div>
-                </div>
+                        <div class="notetext">Отзыв успешно добавлен.</div>
+                        <div class="notetext error">Отзыв успешно добавлен.</div>
+
+                    </div>  <!-- reviews-box -->
+                    <div class="review-form cf">
+                        <form action="">
+
+                            <p class="review-form-name fl">
+                            <label for="yourname">Ваше имя*</label>
+                            <input type="text" name="" id="yourname" placeholder="Гость">
+                            </p>
+
+                             <p class="review-form-mail fl">
+                            <label for="yourmail">Ваше имя*</label>
+                            <input type="text" name="" id="yourmail">
+                            </p>
+
+                            <p class="review-form-text cb">
+                            <label for="yourtext">Текст сообщения*</label>
+                            <textarea name="" id="yourtext" cols="80" rows="12"></textarea>
+                            </p>
+                            <p class="review-captcha">
+                                <label for="yourcaptcha">Символы на картинке*</label>
+                                <input type="text" name="" id="yourcaptcha">
+                                <img src="http://lorempixel.com/100/50" alt="" style="display:block;">
+                            </p>
+                            
+                            <p class="review-submit">
+                                <button class="review-submit-button button" type="submit">Отправить</button>
+                            </p>
+                        </form>
+                    </div> <!-- review-wrap -->
+                </div> <!-- reviews-wrap -->
 
             </div> <!-- item-page -->
         </div> <!-- content-box -->
